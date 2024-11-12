@@ -1,7 +1,6 @@
 
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 50px;
 }
@@ -27,6 +26,7 @@ max-width: 1052px;
   border: 1px;
   margin-right: 20px;
   gap: 10px;
+  align-items: center;
 }
 
 .header__menu-list-item_no-bullit {
@@ -53,15 +53,14 @@ list-style: none;
 }
 
 .header__logo-image {
-  height: 105px;
-  width: 148px;
-  left: 454px;
+  height: auto;
+  width: 100px;
 
 }
 
 .header__address {
   display: flex;
-  margin-left: auto;
+  margin-left: 200px;
   flex-direction: column;
   justify-self: end;
   font-family: Raleway, sans-serif;
@@ -71,10 +70,10 @@ list-style: none;
 
 .cover {
 background-repeat: no-repeat;
-width: 1100px;
+max-width: 1100px;
 z-index: 0;
 position: relative;
-min-height: 757px;
+max-height: 757px;
 padding: 20px;
 background-image: url('../images/cover.jpg');
 background-size: cover;
@@ -129,7 +128,7 @@ font-size: 100px;
 font-weight: bold;
 color: white;
 text-align: center;
-padding: 165px 50px 237px 50px;
+padding: 100px 50px 10px 50px;
 margin: 0;
 font-family: Raleway, sans-serif;
 line-height: 115px;
@@ -162,10 +161,8 @@ line-height: 115px;
   line-height: 28px;
   color: white;
   word-spacing: 13px;
-  width: 637px;
-  height: 28px;
-  top: 667px;
-  left: 78px;
+  max-width: 637px;
+  max-height: 28px;
 }
 
 .bet-button {
