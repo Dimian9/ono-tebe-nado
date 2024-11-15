@@ -198,7 +198,7 @@ line-height: 115px;
   gap: 0;
   margin: 0 24px;
   padding: 180px 50px;
-  width: 1052px; 
+  max-width: 1052px; 
 }
 
 .lots__heading {
@@ -232,7 +232,6 @@ line-height: 115px;
   flex-basis: 334px;
   min-height: 563px;
   z-index: 2;
-  flex-grow: 1;
 
 }
 
@@ -254,6 +253,7 @@ display: flex;
 .card-link {
   height: 100%;
   display: block;
+  text-decoration: none;
 }
 
 .card_title {
@@ -269,11 +269,13 @@ Height: 82px;
 .card__text {
 
   width: 254px;
-  color: white;
+  position: relative;
   z-index: 3;
-  line-height: 24px;
-  top: 229px;
-  left: 399px;  
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
 
 }
 
@@ -353,6 +355,7 @@ line-height: 24px;
 text-align: left;
 padding-right: 5px;
 margin-top: 100px;
+
 
 }
 
